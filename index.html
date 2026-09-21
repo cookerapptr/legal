@@ -38,25 +38,45 @@
 
     <article id="gizlilik">
       <h1>Gizlilik Politikası</h1>
-      <p class="updated">2026-09-13</p>
-      <p class="intro">Cooker, çiftlerin birlikte yemek pişirmesi için yapılmış bir uygulamadır. Bu metin, uygulamayı kullandığında hangi bilgilerin işlendiğini ve nerede durduğunu anlatır. Kısa olması için sadeleştirilmedi; toplanan her şey yazıldı.</p>
+      <p class="updated">2026-09-21</p>
+      <p class="intro">Cooker, çiftlerin birlikte yemek pişirmesi için yapılmış bir uygulamadır. Bu metin, uygulamayı kullandığında hangi bilgilerin işlendiğini, nerede durduğunu ve kimin görebildiğini anlatır. Kısa olması için sadeleştirilmedi; toplanan her şey yazıldı.</p>
       <section>
-        <h2>Verilerinin çoğu telefonundan çıkmıyor</h2>
-        <p>Tariflerin, favorilerin, pişirme geçmişin, notların, mesajların ve Keşfet gönderilerin telefonunun kendi belleğinde saklanır. Bunlar bize gönderilmez ve bizim erişimimiz yoktur.</p>
-        <p>Uygulamayı silersen bu veriler telefonundan da silinir. Bizde bir kopyası kalmaz, çünkü hiç bize ulaşmamıştır.</p>
+        <h2>Hesap zorunlu</h2>
+        <p>Cooker hesap açmadan kullanılamaz: pişirme daveti, arkadaşlık ve Keşfet paylaşımları kim olduğunu bilmeyi gerektiriyor.</p>
+        <p>E-posta ve şifreyle, Google ile ya da Apple ile giriş yapabilirsin. Kimlik kaydın Google’ın Firebase Authentication hizmetinde tutulur; şifreni biz görmeyiz. Google ya da Apple ile girersen o hizmetten yalnızca e-posta adresin ve bir kullanıcı kimliği alınır. Rehberine, fotoğraflarına ya da başka bilgilerine erişilmez.</p>
+        <p>Apple ile girişte Apple sana e-postanı gizleme seçeneği sunar; gizlersen biz de yalnızca Apple’ın verdiği geçici adresi görürüz.</p>
       </section>
       <section>
-        <h2>Hesap açarsan</h2>
-        <p>Hesap açmak zorunlu değildir; uygulamayı hesapsız da kullanabilirsin.</p>
-        <p>Hesap açmayı seçersen e-posta adresin ve şifrelenmiş bir kimlik kaydın Google’ın Firebase Authentication hizmetinde tutulur. Şifreni biz görmeyiz.</p>
-        <p>Google ya da Apple ile giriş yaparsan, o hizmetten yalnızca e-posta adresin ve bir kullanıcı kimliği alınır. Rehberine, fotoğraflarına ya da başka bilgilerine erişilmez.</p>
-        <p>Hesabını uygulama içinden silebilirsin: Ayarlar → Hesabı sil. Silme işlemi hesabını ve ona bağlı kayıtları kaldırır.</p>
+        <h2>Sunucuda tutulanlar</h2>
+        <p>Aşağıdaki veriler Supabase altyapısındaki sunucumuzda (Avrupa Birliği, Frankfurt) saklanır. Bunlar olmadan uygulamanın sosyal tarafı çalışmaz:</p>
+        <p>Profilin: görünen ad, kullanıcı adı, kısa biyografi, avatar emojisi ve rengi, hesabının gizli olup olmadığı, takipçi ve gönderi sayıların, arkadaş kodun.</p>
+        <p>Keşfet’te paylaştığın gönderiler: fotoğraf, yazı, kategori, kendi verdiğin puan, bağlı tarif ve varsa birlikte pişirdiğin kişi. Yorumların, beğenilerin ve kaydettiklerin.</p>
+        <p>Kimi takip ettiğin, kimin seni takip ettiği ve bekleyen takip istekleri.</p>
+        <p>Arkadaşlarınla yazdığın mesajlar. Mesajlar uçtan uca şifreli DEĞİLDİR; sunucuda düz metin olarak durur ve teknik olarak bizim erişebileceğimiz yerdedir. Bunu yalnızca yasal bir zorunluluk ya da bir şikayeti incelemek gerektirirse yaparız.</p>
+        <p>Engellediğin kişiler ve gönderdiğin şikayetler.</p>
+        <p>Pişirme ve “Ne Yesek?” davetleri için kısa ömürlü bir posta kutusu: davet karşı tarafa ulaşınca silinir.</p>
       </section>
       <section>
         <h2>Fotoğraflar ve kamera</h2>
-        <p>Yemeğinin fotoğrafını paylaşmak istediğinde galerine ya da kamerana erişim izni isteriz. Bu izin yalnızca senin seçtiğin kareyi almak için kullanılır.</p>
-        <p>Galerindeki diğer fotoğraflar okunmaz, taranmaz ve hiçbir yere gönderilmez.</p>
-        <p>Seçtiğin fotoğraf telefonunda saklanır. Sunucuya yüklenmez.</p>
+        <p>Yemeğinin fotoğrafını paylaşmak istediğinde galerine ya da kamerana erişim izni isteriz. Bu izin yalnızca senin seçtiğin ya da çektiğin kareyi almak için kullanılır. Galerindeki diğer fotoğraflar okunmaz, taranmaz ve hiçbir yere gönderilmez.</p>
+        <p>Paylaştığın fotoğraf sunucumuzdaki fotoğraf deposuna yüklenir. Depo, fotoğrafın tam adresini bilen herkese açıktır; adresler tahmin edilemez ve yalnızca gönderiyi görebilenlere ulaşır. Gönderiyi ya da hesabını sildiğinde fotoğraf da depodan silinir.</p>
+        <p>Fotoğrafın sunucuya yüklendiği anda konum bilgisi (EXIF) uygulama tarafından kullanılmaz.</p>
+      </section>
+      <section>
+        <h2>Kimler neyi görür</h2>
+        <p>Profil kartın (ad, kullanıcı adı, avatar, sayılar) giriş yapmış herkese açıktır. Hesabın gizliyse gönderilerini yalnızca onayladığın takipçiler görür; açıksa giriş yapmış herkes görür.</p>
+        <p>Takipçi ve takip listelerin herkese açıktır.</p>
+        <p>Arkadaş kodun (CK-…) yalnızca senin paylaştığın kişilerdedir; başkaları tarafından listelenemez. Kodunu bilen herkes sana arkadaşlık isteği ve pişirme daveti gönderebilir.</p>
+        <p>Engellediğin kişi gönderilerini göremez, sana mesaj yazamaz, seni takip edemez ve sana davet gönderemez. Engellendiği ona söylenmez.</p>
+      </section>
+      <section>
+        <h2>İki telefonla pişirirken</h2>
+        <p>Birlikte pişirirken adım işaretlemeleri, sayaçlar ve “Ne Yesek?” oyları sunucumuz üzerinden anlık olarak karşı telefona iletilir. Bu mesajlar saklanmaz; pişirme bitince yok olur.</p>
+      </section>
+      <section>
+        <h2>Telefonunda kalanlar</h2>
+        <p>Favorilerin, pişirme geçmişin ve rozetlerin, kendi yazdığın tarifler, arkadaş listen, mesajların okunma zamanı, bildirimlerin, dil ve tema tercihin yalnızca telefonunda saklanır. Bunlar bize gönderilmez.</p>
+        <p>Uygulamayı silersen ya da hesabından çıkarsan bu veriler telefonundan da silinir; yedekleri yoktur.</p>
       </section>
       <section>
         <h2>Reklamlar</h2>
@@ -67,18 +87,22 @@
       <section>
         <h2>Abonelik</h2>
         <p>Abonelik satın alırsan ödeme tamamen Apple üzerinden yapılır. Kart bilgilerini biz görmeyiz, saklamayız ve bize hiç ulaşmaz.</p>
-        <p>Uygulama yalnızca aboneliğin etkin olup olmadığı bilgisini alır.</p>
+        <p>Aboneliğin etkin olup olmadığını RevenueCat hizmeti aracılığıyla öğreniriz; bu hizmete Apple’ın verdiği anonim bir işlem kimliği gider, adın ya da e-postan değil.</p>
       </section>
       <section>
         <h2>Tarif görselleri</h2>
         <p>Tarif fotoğrafları TheMealDB ve Unsplash üzerinden yüklenir. Bir görsel yüklenirken bu servisler, her internet isteğinde olduğu gibi IP adresini görür. Bu istekle birlikte kim olduğuna dair bir bilgi gönderilmez.</p>
       </section>
       <section>
-        <h2>Yapmadığımız şeyler</h2>
-        <p>Verilerini satmıyoruz.</p>
-        <p>Uygulamada davranışını izleyen bir analiz aracı çalıştırmıyoruz.</p>
-        <p>Reklam ağları dışında hiçbir üçüncü tarafla veri paylaşmıyoruz.</p>
-        <p>Konumunu takip etmiyoruz.</p>
+        <h2>Kimlerle çalışıyoruz</h2>
+        <p>Verini işleyen hizmet sağlayıcılar: Google (Firebase Authentication — giriş; AdMob — reklam), Supabase (veritabanı, fotoğraf deposu ve anlık iletişim; Frankfurt), Apple (ödeme ve Apple ile giriş), RevenueCat (abonelik durumu). Her biri yalnızca kendi işini yapacak kadar veri alır.</p>
+        <p>Verini satmıyoruz. Uygulamada davranışını izleyen bir analiz aracı çalıştırmıyoruz. Konumunu takip etmiyoruz.</p>
+      </section>
+      <section>
+        <h2>Ne kadar saklanır</h2>
+        <p>Sunucudaki verin hesabını silene kadar durur. Hesabını Ayarlar → Hesabı sil yolundan sildiğinde profilin, gönderilerin, yorumların, beğenilerin, takiplerin, mesajların, engellerin, şikayetlerin ve fotoğrafların sunucudan silinir; Firebase’deki kimlik kaydın da kapanır.</p>
+        <p>Sunucu yedekleri en geç 30 gün içinde yenilenir; silinen veri bu süreden sonra yedeklerde de kalmaz.</p>
+        <p>Başkasının gönderisine yazdığın yorum, o gönderiyle birlikte; birlikte paylaştığınız ortak gönderi ise ikinizden biri silene kadar durur.</p>
       </section>
       <section>
         <h2>Çocuklar</h2>
@@ -86,7 +110,7 @@
       </section>
       <section>
         <h2>Haklarını nasıl kullanırsın</h2>
-        <p>Hangi verinin tutulduğunu öğrenme, düzeltilmesini ya da silinmesini isteme hakkın var. Hesabını uygulamadan doğrudan silebilirsin; başka bir talep için aşağıdaki adrese yazman yeterli.</p>
+        <p>Hangi verinin tutulduğunu öğrenme, düzeltilmesini ya da silinmesini isteme ve işlenmesine itiraz etme hakkın var (6698 sayılı KVKK ve AB GDPR). Profilini uygulamadan düzeltebilir, hesabını doğrudan silebilirsin; başka bir talep için aşağıdaki adrese yazman yeterli, en geç 30 gün içinde yanıtlarız.</p>
       </section>
       <section>
         <h2>Bu metin değişirse</h2>
@@ -100,7 +124,7 @@
   <hr>
     <article id="sartlar">
       <h1>Kullanım Şartları</h1>
-      <p class="updated">2026-09-13</p>
+      <p class="updated">2026-09-21</p>
       <p class="intro">Cooker’ı kullanarak aşağıdaki şartları kabul etmiş olursun. Uzun bir hukuk metni değil; ne yapabileceğini ve neyi yapamayacağını anlatıyor.</p>
       <section>
         <h2>Rahatsız edici içeriğe toleransımız yok</h2>
@@ -149,25 +173,45 @@
   <hr>
     <article id="privacy">
       <h1>Privacy Policy</h1>
-      <p class="updated">2026-09-13</p>
-      <p class="intro">Cooker is an app for couples who cook together. This page explains what information is handled when you use it, and where that information lives. Nothing has been left out for the sake of brevity.</p>
+      <p class="updated">2026-09-21</p>
+      <p class="intro">Cooker is an app for couples who cook together. This page explains what information is handled when you use it, where it lives and who can see it. Nothing has been left out for the sake of brevity.</p>
       <section>
-        <h2>Most of your data never leaves your phone</h2>
-        <p>Your recipes, favourites, cooking history, notes, messages and Discover posts are stored in your phone’s own storage. They are not sent to us and we cannot access them.</p>
-        <p>If you delete the app, that data is deleted with it. We keep no copy, because it never reached us in the first place.</p>
+        <h2>An account is required</h2>
+        <p>Cooker cannot be used without an account: cooking invitations, friendships and Discover posts all need to know who you are.</p>
+        <p>You can sign in with email and password, with Google or with Apple. Your credential record is held by Google’s Firebase Authentication service; we never see your password. If you sign in with Google or Apple, we receive only your email address and a user identifier — never your contacts, photos or anything else.</p>
+        <p>When signing in with Apple you can hide your email; if you do, we only see the relay address Apple provides.</p>
       </section>
       <section>
-        <h2>If you create an account</h2>
-        <p>An account is optional — the app works without one.</p>
-        <p>If you do create one, your email address and an encrypted credential record are held by Google’s Firebase Authentication service. We never see your password.</p>
-        <p>If you sign in with Google or Apple, we receive only your email address and a user identifier. We do not access your contacts, photos or anything else.</p>
-        <p>You can delete your account from inside the app: Settings → Delete account.</p>
+        <h2>What is stored on our server</h2>
+        <p>The following data is stored on our server, hosted by Supabase in the European Union (Frankfurt). The social side of the app cannot work without it:</p>
+        <p>Your profile: display name, username, short bio, avatar emoji and colour, whether your account is private, your follower and post counts, and your friend code.</p>
+        <p>The posts you share in Discover: photo, caption, category, your own rating, the linked recipe and, if you cooked together, your partner. Your comments, likes and saved posts.</p>
+        <p>Who you follow, who follows you, and pending follow requests.</p>
+        <p>Messages you exchange with friends. Messages are NOT end-to-end encrypted; they are stored in plain text on the server, where we could technically read them. We only do so when a legal obligation or a reported abuse case requires it.</p>
+        <p>The people you block and the reports you send.</p>
+        <p>A short-lived mailbox for cooking and “What shall we eat?” invitations; an invitation is deleted as soon as it reaches the other person.</p>
       </section>
       <section>
         <h2>Photos and camera</h2>
-        <p>When you want to share a photo of your food, we ask for access to your gallery or camera. That access is used only to take the shot you pick.</p>
-        <p>Other photos in your gallery are never read, scanned or transmitted.</p>
-        <p>The photo you choose stays on your phone. It is not uploaded to a server.</p>
+        <p>When you want to share a photo of your food, we ask for access to your gallery or camera. That access is used only for the shot you pick or take. Other photos in your gallery are never read, scanned or transmitted.</p>
+        <p>A photo you share is uploaded to the photo store on our server. The store is reachable by anyone who knows a photo’s exact address; addresses cannot be guessed and only reach people who can see the post. When you delete the post or your account, the photo is deleted from the store too.</p>
+        <p>Location data embedded in photos (EXIF) is not used by the app.</p>
+      </section>
+      <section>
+        <h2>Who sees what</h2>
+        <p>Your profile card (name, username, avatar, counts) is visible to every signed-in user. If your account is private, only followers you approve see your posts; otherwise every signed-in user does.</p>
+        <p>Your follower and following lists are public.</p>
+        <p>Your friend code (CK-…) is known only to the people you share it with; it cannot be listed by others. Anyone who has your code can send you a friend request or a cooking invitation.</p>
+        <p>A person you block cannot see your posts, message you, follow you or invite you. They are not told they were blocked.</p>
+      </section>
+      <section>
+        <h2>While cooking on two phones</h2>
+        <p>When you cook together, step check-marks, timers and “What shall we eat?” votes are relayed to the other phone in real time through our server. These messages are not stored; they disappear when cooking ends.</p>
+      </section>
+      <section>
+        <h2>What stays on your phone</h2>
+        <p>Your favourites, cooking history and badges, the recipes you write yourself, your friend list, message read times, notifications, and your language and theme preference are stored only on your phone. They are not sent to us.</p>
+        <p>If you delete the app or sign out, this data is removed from your phone; there is no backup.</p>
       </section>
       <section>
         <h2>Ads</h2>
@@ -178,18 +222,22 @@
       <section>
         <h2>Subscriptions</h2>
         <p>If you subscribe, payment is handled entirely by Apple. We never see or store your card details and they never reach us.</p>
-        <p>The app only learns whether your subscription is active.</p>
+        <p>We learn whether your subscription is active through the RevenueCat service, which receives an anonymous transaction identifier from Apple — not your name or email.</p>
       </section>
       <section>
         <h2>Recipe images</h2>
         <p>Recipe photos are loaded from TheMealDB and Unsplash. When an image loads, those services see your IP address, as with any internet request. Nothing identifying you is sent with it.</p>
       </section>
       <section>
-        <h2>What we do not do</h2>
-        <p>We do not sell your data.</p>
-        <p>We run no analytics tool that tracks your behaviour in the app.</p>
-        <p>We share data with no third party other than the ad network.</p>
-        <p>We do not track your location.</p>
+        <h2>Who we work with</h2>
+        <p>Service providers that process your data: Google (Firebase Authentication for sign-in; AdMob for ads), Supabase (database, photo store and real-time messaging; Frankfurt), Apple (payments and Sign in with Apple), RevenueCat (subscription status). Each receives only what its job requires.</p>
+        <p>We do not sell your data. We run no analytics tool that tracks your behaviour in the app. We do not track your location.</p>
+      </section>
+      <section>
+        <h2>How long it is kept</h2>
+        <p>Data on the server is kept until you delete your account. When you delete it via Settings → Delete account, your profile, posts, comments, likes, follows, messages, blocks, reports and photos are removed from the server and your Firebase credential record is closed.</p>
+        <p>Server backups are rotated within 30 days at most; deleted data does not remain in backups beyond that.</p>
+        <p>A comment you leave on someone else’s post lives with that post; a joint post you shared together stays until either of you deletes it.</p>
       </section>
       <section>
         <h2>Children</h2>
@@ -197,7 +245,7 @@
       </section>
       <section>
         <h2>Your rights</h2>
-        <p>You have the right to find out what data is held, and to ask for it to be corrected or deleted. You can delete your account directly in the app; for anything else, write to the address below.</p>
+        <p>You have the right to find out what data is held, to have it corrected or deleted, and to object to its processing (Turkish KVKK and EU GDPR). You can edit your profile and delete your account directly in the app; for anything else, write to the address below and we will answer within 30 days.</p>
       </section>
       <section>
         <h2>Changes to this policy</h2>
@@ -211,7 +259,7 @@
   <hr>
     <article id="terms">
       <h1>Terms of Use</h1>
-      <p class="updated">2026-09-13</p>
+      <p class="updated">2026-09-21</p>
       <p class="intro">By using Cooker you agree to the terms below. This is not a long legal document — it sets out what you can and cannot do.</p>
       <section>
         <h2>Zero tolerance for objectionable content</h2>
