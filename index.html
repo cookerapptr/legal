@@ -56,7 +56,7 @@
         <h2>Sunucuda tutulanlar</h2>
         <p>Aşağıdaki veriler Supabase altyapısındaki sunucumuzda (Avrupa Birliği, Frankfurt) saklanır. Bunlar olmadan uygulamanın sosyal tarafı çalışmaz:</p>
         <p>Profilin: görünen ad, kullanıcı adı, kısa biyografi, avatarın ve rengi, hesabının gizli olup olmadığı, takipçi ve gönderi sayıların, arkadaş kodun.</p>
-        <p>Keşfet’te paylaştığın gönderiler: yemek fotoğrafı ve istersen eklediğin selfie, yazı, kategori, kendi verdiğin puan, bağlı tarif, paylaştığın sofra menüsü ve varsa birlikte pişirdiğin kişi. Yorumların, beğenilerin ve kaydettiklerin.</p>
+        <p>Keşfet’te paylaştığın gönderiler: yemek fotoğrafı ve istersen eklediğin selfie, yazı, kategori, kendi verdiğin puan, bağlı tarif, paylaştığın sofra menüsü, gönderiyi kimin göreceği ve varsa birlikte pişirdiğin kişi. Yorumların, beğenilerin ve kaydettiklerin.</p>
         <p>Kendi yazdığın bir tarifi kaydettiğinde tarifin adı ve fotoğrafı (eklediysen) Keşfet’te gönderi olarak paylaşılır; malzemeleri ve adımları telefonunda kalır.</p>
         <p>Kimi takip ettiğin, kimin seni takip ettiği ve bekleyen takip istekleri.</p>
         <p>Arkadaşlarınla yazdığın mesajlar ve onlara gönderdiğin tarif ve gönderi bağlantıları. Mesajlar uçtan uca şifreli DEĞİLDİR; sunucuda düz metin olarak durur ve teknik olarak bizim erişebileceğimiz yerdedir. Bunu yalnızca yasal bir zorunluluk ya da bir şikayeti incelemek gerektirirse yaparız.</p>
@@ -72,7 +72,8 @@
       </section>
       <section>
         <h2>Kimler neyi görür</h2>
-        <p>Profil kartın (ad, kullanıcı adı, biyografi, avatar, sayılar) giriş yapmış herkese açıktır. Hesabın gizliyse gönderilerini yalnızca onayladığın takipçiler görür; açıksa giriş yapmış herkes görür.</p>
+        <p>Profil kartın (ad, kullanıcı adı, biyografi, avatar, sayılar) giriş yapmış herkese açıktır.</p>
+        <p>Her gönderini kimin göreceğini paylaşırken sen seçersin. Herkese açık: hesabın açıksa giriş yapmış herkes, gizliyse yalnızca onayladığın takipçiler görür. Arkadaşlar: yalnızca karşılıklı takipleştiğin kişiler görür. Yalnız ben: yalnızca sen görürsün. Birlikte pişirdiğin kişi gönderiyi her durumda görür; ortak gönderide ikinizin gizlilik ayarı da geçerlidir ve Arkadaşlar seçiliyse ikinizden birinin arkadaşı olmak yeter.</p>
         <p>Takipçi ve takip listelerin giriş yapmış herkese açıktır.</p>
         <p>Arkadaş kodun (CK-…) yalnızca onu paylaştığın kişilerde ve karşılıklı takipleştiğin kişilerde görünür (arkadaş listesi yeni bir telefonda bununla kurulur); başkaları onu listeleyemez. Kodunu bilen herkes sana arkadaşlık isteği ve pişirme daveti gönderebilir.</p>
         <p>Engellediğin kişi gönderilerini göremez, sana mesaj yazamaz, seni takip edemez ve sana davet gönderemez. Engellendiği ona söylenmez.</p>
@@ -210,7 +211,7 @@
         <h2>What is stored on our server</h2>
         <p>The following data is stored on our server, hosted by Supabase in the European Union (Frankfurt). The social side of the app cannot work without it:</p>
         <p>Your profile: display name, username, short bio, avatar and colour, whether your account is private, your follower and post counts, and your friend code.</p>
-        <p>The posts you share in Discover: the dish photo and, if you add one, a selfie, caption, category, your own rating, the linked recipe, a table menu you share and, if you cooked together, your partner. Your comments, likes and saved posts.</p>
+        <p>The posts you share in Discover: the dish photo and, if you add one, a selfie, caption, category, your own rating, the linked recipe, a table menu you share, who can see the post and, if you cooked together, your partner. Your comments, likes and saved posts.</p>
         <p>When you save a recipe you wrote, its name and photo (if you added one) are shared as a post in Discover; its ingredients and steps stay on your phone.</p>
         <p>Who you follow, who follows you, and pending follow requests.</p>
         <p>Messages you exchange with friends, and the recipe and post links you send them. Messages are NOT end-to-end encrypted; they are stored in plain text on the server, where we could technically read them. We only do so when a legal obligation or a reported abuse case requires it.</p>
@@ -226,7 +227,8 @@
       </section>
       <section>
         <h2>Who sees what</h2>
-        <p>Your profile card (name, username, bio, avatar, counts) is visible to every signed-in user. If your account is private, only followers you approve see your posts; otherwise every signed-in user does.</p>
+        <p>Your profile card (name, username, bio, avatar, counts) is visible to every signed-in user.</p>
+        <p>You choose who can see each post when you share it. Public: every signed-in user if your account is public, only followers you approve if it is private. Friends: only people you follow mutually. Only me: only you. The person you cooked with always sees the post; on a shared post both of your privacy settings apply, and with Friends being a friend of either of you is enough.</p>
         <p>Your follower and following lists are visible to every signed-in user.</p>
         <p>Your friend code (CK-…) is known only to the people you share it with and to people you follow mutually (your friend list is rebuilt from that on a new phone); it cannot be listed by others. Anyone who has your code can send you a friend request or a cooking invitation.</p>
         <p>A person you block cannot see your posts, message you, follow you or invite you. They are not told they were blocked.</p>
