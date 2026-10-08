@@ -38,71 +38,89 @@
 
     <article id="gizlilik">
       <h1>Gizlilik Politikası</h1>
-      <p class="updated">2026-09-22</p>
+      <p class="updated">2026-10-04</p>
       <p class="intro">Cooker, çiftlerin birlikte yemek pişirmesi için yapılmış bir uygulamadır. Bu metin, uygulamayı kullandığında hangi bilgilerin işlendiğini, nerede durduğunu ve kimin görebildiğini anlatır. Kısa olması için sadeleştirilmedi; toplanan her şey yazıldı.</p>
+      <section>
+        <h2>Veri sorumlusu</h2>
+        <p>Cooker’daki kişisel verilerin sorumlusu (6698 sayılı KVKK’daki adıyla veri sorumlusu) uygulamanın geliştiricisidir: App Store’da Cooker’ın satıcısı olarak görünen kişi. Cooker bir şirketin değil, bireysel bir geliştiricinin uygulamasıdır.</p>
+        <p>Bu metinle ya da verinle ilgili her konuda ulaşabileceğin adres: <a href="mailto:hello.cooker.app@gmail.com">hello.cooker.app@gmail.com</a></p>
+      </section>
       <section>
         <h2>Hesap zorunlu</h2>
         <p>Cooker hesap açmadan kullanılamaz: pişirme daveti, arkadaşlık ve Keşfet paylaşımları kim olduğunu bilmeyi gerektiriyor.</p>
-        <p>E-posta ve şifreyle, Google ile ya da Apple ile giriş yapabilirsin. Kimlik kaydın Google’ın Firebase Authentication hizmetinde tutulur; şifreni biz görmeyiz. Google ya da Apple ile girersen o hizmetten yalnızca e-posta adresin ve bir kullanıcı kimliği alınır. Rehberine, fotoğraflarına ya da başka bilgilerine erişilmez.</p>
+        <p>E-posta ve şifreyle, Google ile ya da Apple ile giriş yapabilirsin. Kimlik kaydın Google’ın Firebase Authentication hizmetinde tutulur; şifreni biz görmeyiz.</p>
+        <p>Google ile girersen Google hesabının e-posta adresi, adı ve profil fotoğrafının adresi bu giriş kaydına geçer; adın, profilini kurarken öneri olarak gösterilir. Apple ile girersen e-posta adresin ve (yalnızca ilk girişte) adın alınır; ad yalnızca profilini kurarken öneri olarak bu telefonda kullanılır. Rehberine, fotoğraflarına ya da başka bilgilerine erişilmez.</p>
         <p>Apple ile girişte Apple sana e-postanı gizleme seçeneği sunar; gizlersen biz de yalnızca Apple’ın verdiği geçici adresi görürüz.</p>
       </section>
       <section>
         <h2>Sunucuda tutulanlar</h2>
         <p>Aşağıdaki veriler Supabase altyapısındaki sunucumuzda (Avrupa Birliği, Frankfurt) saklanır. Bunlar olmadan uygulamanın sosyal tarafı çalışmaz:</p>
-        <p>Profilin: görünen ad, kullanıcı adı, kısa biyografi, avatar emojisi ve rengi, hesabının gizli olup olmadığı, takipçi ve gönderi sayıların, arkadaş kodun.</p>
-        <p>Keşfet’te paylaştığın gönderiler: fotoğraf, yazı, kategori, kendi verdiğin puan, bağlı tarif ve varsa birlikte pişirdiğin kişi. Yorumların, beğenilerin ve kaydettiklerin.</p>
+        <p>Profilin: görünen ad, kullanıcı adı, kısa biyografi, avatarın ve rengi, hesabının gizli olup olmadığı, takipçi ve gönderi sayıların, arkadaş kodun.</p>
+        <p>Keşfet’te paylaştığın gönderiler: yemek fotoğrafı ve istersen eklediğin selfie, yazı, kategori, kendi verdiğin puan, bağlı tarif, paylaştığın sofra menüsü ve varsa birlikte pişirdiğin kişi. Yorumların, beğenilerin ve kaydettiklerin.</p>
+        <p>Kendi yazdığın bir tarifi kaydettiğinde tarifin adı ve fotoğrafı (eklediysen) Keşfet’te gönderi olarak paylaşılır; malzemeleri ve adımları telefonunda kalır.</p>
         <p>Kimi takip ettiğin, kimin seni takip ettiği ve bekleyen takip istekleri.</p>
-        <p>Arkadaşlarınla yazdığın mesajlar. Mesajlar uçtan uca şifreli DEĞİLDİR; sunucuda düz metin olarak durur ve teknik olarak bizim erişebileceğimiz yerdedir. Bunu yalnızca yasal bir zorunluluk ya da bir şikayeti incelemek gerektirirse yaparız.</p>
+        <p>Arkadaşlarınla yazdığın mesajlar ve onlara gönderdiğin tarif ve gönderi bağlantıları. Mesajlar uçtan uca şifreli DEĞİLDİR; sunucuda düz metin olarak durur ve teknik olarak bizim erişebileceğimiz yerdedir. Bunu yalnızca yasal bir zorunluluk ya da bir şikayeti incelemek gerektirirse yaparız.</p>
         <p>Engellediğin kişiler ve gönderdiğin şikayetler.</p>
-        <p>Pişirme ve “Ne Yesek?” davetleri için kısa ömürlü bir posta kutusu: davet karşı tarafa ulaşınca silinir.</p>
+        <p>Davetler, arkadaşlık istekleri ve iki telefonla oynanan oyunların mesajları için kısa ömürlü bir posta kutusu: kayıt karşı tarafa ulaşınca silinir, ulaşmazsa yedi gün sonra otomatik silinir.</p>
       </section>
       <section>
         <h2>Fotoğraflar ve kamera</h2>
-        <p>Yemeğinin fotoğrafını paylaşmak istediğinde galerine ya da kamerana erişim izni isteriz. Bu izin yalnızca senin seçtiğin ya da çektiğin kareyi almak için kullanılır. Galerindeki diğer fotoğraflar okunmaz, taranmaz ve hiçbir yere gönderilmez.</p>
-        <p>Paylaştığın fotoğraf sunucumuzdaki fotoğraf deposuna yüklenir. Depo, fotoğrafın tam adresini bilen herkese açıktır; adresler tahmin edilemez ve yalnızca gönderiyi görebilenlere ulaşır. Gönderiyi ya da hesabını sildiğinde fotoğraf da depodan silinir.</p>
+        <p>Galeriden fotoğraf seçerken iOS’un kendi seçicisi açılır ve uygulamaya yalnızca seçtiğin kareyi verir; galerinin geri kalanını göremeyiz, bunun için izin de istemeyiz. Kamerayla çekmek istersen kamera izni isteriz; çekilen kare yalnızca paylaşmak istediğin gönderi için kullanılır.</p>
+        <p>Paylaştığın fotoğraf küçültülüp sunucumuzdaki fotoğraf deposuna yüklenir. Depo, fotoğrafın tam adresini bilen herkese açıktır; adresler tahmin edilemez ve yalnızca gönderiyi görebilenlere ulaşır.</p>
         <p>Fotoğrafın sunucuya yüklendiği anda konum bilgisi (EXIF) uygulama tarafından kullanılmaz.</p>
       </section>
       <section>
         <h2>Kimler neyi görür</h2>
-        <p>Profil kartın (ad, kullanıcı adı, avatar, sayılar) giriş yapmış herkese açıktır. Hesabın gizliyse gönderilerini yalnızca onayladığın takipçiler görür; açıksa giriş yapmış herkes görür.</p>
-        <p>Takipçi ve takip listelerin herkese açıktır.</p>
-        <p>Arkadaş kodun (CK-…) yalnızca senin paylaştığın kişilerdedir; başkaları tarafından listelenemez. Kodunu bilen herkes sana arkadaşlık isteği ve pişirme daveti gönderebilir.</p>
+        <p>Profil kartın (ad, kullanıcı adı, biyografi, avatar, sayılar) giriş yapmış herkese açıktır. Hesabın gizliyse gönderilerini yalnızca onayladığın takipçiler görür; açıksa giriş yapmış herkes görür.</p>
+        <p>Takipçi ve takip listelerin giriş yapmış herkese açıktır.</p>
+        <p>Arkadaş kodun (CK-…) yalnızca onu paylaştığın kişilerde ve karşılıklı takipleştiğin kişilerde görünür (arkadaş listesi yeni bir telefonda bununla kurulur); başkaları onu listeleyemez. Kodunu bilen herkes sana arkadaşlık isteği ve pişirme daveti gönderebilir.</p>
         <p>Engellediğin kişi gönderilerini göremez, sana mesaj yazamaz, seni takip edemez ve sana davet gönderemez. Engellendiği ona söylenmez.</p>
       </section>
       <section>
-        <h2>İki telefonla pişirirken</h2>
-        <p>Birlikte pişirirken adım işaretlemeleri, sayaçlar ve “Ne Yesek?” oyları sunucumuz üzerinden anlık olarak karşı telefona iletilir. Bu mesajlar saklanmaz; pişirme bitince yok olur.</p>
+        <h2>İki telefonla pişirirken ve oynarken</h2>
+        <p>Birlikte pişirirken ve iki telefonla oynarken (Ne Yesek?, Eleme Turnuvası, Veto, Buzdolabı) adım işaretlemeleri, sayaçlar, oylar ve seçimler sunucumuz üzerinden anlık olarak karşı telefona iletilir; bunlar saklanmaz.</p>
+        <p>Karşı telefon o an kapalıysa davet, oy, liste ve “çıktım” gibi mesajlar yukarıdaki posta kutusunda bekler; karşı tarafa ulaşınca silinir.</p>
       </section>
       <section>
         <h2>Telefonunda kalanlar</h2>
-        <p>Favorilerin, pişirme geçmişin ve rozetlerin, kendi yazdığın tarifler, arkadaş listen, mesajların okunma zamanı, bildirimlerin, dil ve tema tercihin yalnızca telefonunda saklanır. Bunlar bize gönderilmez.</p>
-        <p>Uygulamayı silersen ya da hesabından çıkarsan bu veriler telefonundan da silinir; yedekleri yoktur.</p>
+        <p>Favorilerin, pişirme geçmişin ve rozetlerin, kendi yazdığın tariflerin malzemeleri ve adımları, yarım kalan tarifin, tariflere verdiğin puan ve notlar, arkadaş listen, sohbetlerinin telefondaki kopyası ve okunma zamanları, bildirimlerin, şartları kabul ettiğin an, dil ve tema tercihin yalnızca telefonunda saklanır. Bunlar bize gönderilmez.</p>
+        <p>Hesabından çıkınca bunlar telefonunda kalır ve aynı hesapla tekrar girince yerine gelir. Telefona başka bir hesapla girilirse arkadaş listen, sohbetlerin, bildirimlerin, yarım kalan tarifin ve puanların silinir; favorilerin, pişirme geçmişin, rozetlerin ve kendi tariflerin ise telefonda kalır ve o hesap da onları görür. Telefonu başkasıyla paylaşıyorsan bunu bil.</p>
+        <p>Hesabını silersen bunların hepsi telefonundan da silinir; yalnızca cihazın ayarları (dil, tema, ses), reklam sayaçları ve reklamla açtığın tariflerin süresi kalır. Uygulamayı silersen hepsi gider. Yedekleri yoktur.</p>
       </section>
       <section>
         <h2>Reklamlar</h2>
-        <p>Gurme tarifleri reklam izleyerek açabilirsin. Reklamlar Google AdMob tarafından gösterilir ve AdMob bu sırada cihazına ait bir reklam tanımlayıcısı ile yaklaşık konum gibi teknik bilgiler işleyebilir.</p>
+        <p>Gurme tarifler kilitlidir: kısa bir reklam izlersen o tarif 24 saat açık kalır. Bunun dışında birkaç tarifte bir tam ekran reklam çıkabilir.</p>
+        <p>Reklamlar Google AdMob tarafından gösterilir. AdMob bu sırada IP adresini, cihazının teknik bilgilerini, yaklaşık konumunu ve (izin verdiysen) reklam tanımlayıcısını işleyebilir.</p>
         <p>iOS’ta kişiselleştirilmiş reklam için ayrıca senden izin istenir. İzin vermezsen reklamlar yine görünür ama sana göre kişiselleştirilmez.</p>
-        <p>Reklam izlemek zorunda değilsin; abonelik de aynı içeriği açar.</p>
-      </section>
-      <section>
-        <h2>Abonelik</h2>
-        <p>Abonelik satın alırsan ödeme tamamen Apple üzerinden yapılır. Kart bilgilerini biz görmeyiz, saklamayız ve bize hiç ulaşmaz.</p>
-        <p>Aboneliğin etkin olup olmadığını RevenueCat hizmeti aracılığıyla öğreniriz; bu hizmete Apple’ın verdiği anonim bir işlem kimliği gider, adın ya da e-postan değil.</p>
       </section>
       <section>
         <h2>Tarif görselleri</h2>
-        <p>Tarif fotoğrafları TheMealDB ve Unsplash üzerinden yüklenir. Bir görsel yüklenirken bu servisler, her internet isteğinde olduğu gibi IP adresini görür. Bu istekle birlikte kim olduğuna dair bir bilgi gönderilmez.</p>
+        <p>Uygulamadaki tariflerin görselleri uygulamayla birlikte gelir; bir tarifi açtığında görsel için internete istek gitmez. Senin ve başkalarının paylaştığı fotoğraflar sunucumuzdan yüklenir.</p>
+      </section>
+      <section>
+        <h2>Neden işliyoruz, hangi hukuki sebeple</h2>
+        <p>Hesabını açmak; profilini, paylaşımlarını, mesajlarını ve davetlerini sana ve arkadaşlarına ulaştırmak: kullanım şartlarındaki hizmeti sunabilmek için gerekli (KVKK m. 5/2-c, GDPR m. 6/1-b).</p>
+        <p>Şikayetleri incelemek, kötüye kullanımı ve spamı önlemek, uygulamanın güvenliğini sağlamak; kişiselleştirilmemiş reklamla uygulamayı ücretsiz tutmak: meşru menfaatimiz (KVKK m. 5/2-f, GDPR m. 6/1-f).</p>
+        <p>Yasal bir talep olursa veriyi saklamak ya da yetkili makama vermek: hukuki yükümlülük (KVKK m. 5/2-ç, GDPR m. 6/1-c).</p>
+        <p>Kişiselleştirilmiş reklam: yalnızca iOS’un sorduğu izni verirsen, yani açık rızanla (KVKK m. 5/1, GDPR m. 6/1-a). İzni istediğin an iPhone Ayarlar → Gizlilik ve Güvenlik → İzleme’den geri alabilirsin.</p>
       </section>
       <section>
         <h2>Kimlerle çalışıyoruz</h2>
-        <p>Verini işleyen hizmet sağlayıcılar: Google (Firebase Authentication — giriş; AdMob — reklam), Supabase (veritabanı, fotoğraf deposu ve anlık iletişim; Frankfurt), Apple (ödeme ve Apple ile giriş), RevenueCat (abonelik durumu). Her biri yalnızca kendi işini yapacak kadar veri alır.</p>
+        <p>Verini işleyen hizmet sağlayıcılar: Google (Firebase Authentication — giriş ve Google ile giriş; AdMob — reklam), Supabase (veritabanı, fotoğraf deposu ve anlık iletişim; Frankfurt), Apple (Apple ile giriş). Her biri yalnızca kendi işini yapacak kadar veri alır.</p>
         <p>Verini satmıyoruz. Uygulamada davranışını izleyen bir analiz aracı çalıştırmıyoruz. Konumunu takip etmiyoruz.</p>
       </section>
       <section>
+        <h2>Yurt dışına aktarım</h2>
+        <p>Verin Türkiye dışındaki sunucularda işlenir: Supabase’in sunucuları Almanya’da (Avrupa Birliği, Frankfurt); Google’ın (Firebase Authentication, Google ile giriş, AdMob) ve Apple’ın (Apple ile giriş) hizmetleri ABD’de ve bu şirketlerin başka ülkelerdeki veri merkezlerinde çalışır.</p>
+        <p>Aktarım, hesabını ve uygulamanın sosyal özelliklerini sunabilmek için gerekli; aktarılan veri bu metinde yazılanlarla sınırlı.</p>
+      </section>
+      <section>
         <h2>Ne kadar saklanır</h2>
-        <p>Sunucudaki verin hesabını silene kadar durur. Hesabını Ayarlar → Hesabı sil yolundan sildiğinde profilin, gönderilerin, yorumların, beğenilerin, takiplerin, mesajların, engellerin, şikayetlerin ve fotoğrafların sunucudan silinir; Firebase’deki kimlik kaydın da kapanır.</p>
+        <p>Sunucudaki verin hesabını silene kadar durur. Hesabını Ayarlar → Hesabı sil yolundan sildiğinde profilin, gönderilerin, yorumların, beğenilerin, kaydettiklerin, takiplerin, mesajların (sohbetin iki tarafında da), engellerin, şikayetlerin ve fotoğraf klasörün sunucudan silinir; Firebase’deki kimlik kaydın da kapanır.</p>
+        <p>Posta kutusundaki kayıtlar karşı tarafa ulaşınca, ulaşmazsa yedi gün sonra silinir.</p>
+        <p>Gönderini sildiğinde fotoğrafları da depodan silinir; bağlantı o an koparsa fotoğraf, hesabını silene kadar klasöründe kalabilir. Birlikte paylaştığınız gönderiyi eşin silerse fotoğraflar, onları yükleyen kişinin klasöründe o kişi hesabını silene kadar kalır; gönderi silindiği için uygulamada görünmezler.</p>
+        <p>Başkasının gönderisine yazdığın yorum o gönderiyle birlikte ya da hesabını silince silinir. Birlikte paylaştığınız ortak gönderi, ikinizden biri onu silene ya da paylaşan kişi hesabını silene kadar durur; eşin hesabını silerse gönderi kalır, eşin adı gönderiden kalkar.</p>
         <p>Sunucu yedekleri en geç 30 gün içinde yenilenir; silinen veri bu süreden sonra yedeklerde de kalmaz.</p>
-        <p>Başkasının gönderisine yazdığın yorum, o gönderiyle birlikte; birlikte paylaştığınız ortak gönderi ise ikinizden biri silene kadar durur.</p>
       </section>
       <section>
         <h2>Çocuklar</h2>
@@ -110,7 +128,8 @@
       </section>
       <section>
         <h2>Haklarını nasıl kullanırsın</h2>
-        <p>Hangi verinin tutulduğunu öğrenme, düzeltilmesini ya da silinmesini isteme ve işlenmesine itiraz etme hakkın var (6698 sayılı KVKK ve AB GDPR). Profilini uygulamadan düzeltebilir, hesabını doğrudan silebilirsin; başka bir talep için aşağıdaki adrese yazman yeterli, en geç 30 gün içinde yanıtlarız.</p>
+        <p>KVKK’nın 11. maddesi ve AB GDPR’ı sana şu hakları verir: verinin işlenip işlenmediğini ve hangi verinin tutulduğunu öğrenme, neden işlendiğini ve kimlere aktarıldığını bilme, yanlışsa düzeltilmesini, silinmesini isteme, işlenmesine itiraz etme ve hukuka aykırı işleme yüzünden zarara uğradıysan bunun giderilmesini isteme.</p>
+        <p>Profilini uygulamadan düzeltebilir, hesabını Ayarlar → Hesabı sil yolundan doğrudan silebilirsin. Başka her talep için aşağıdaki adrese yaz; en geç 30 gün içinde yanıtlarız. Yanıtımızdan memnun kalmazsan Kişisel Verileri Koruma Kurulu’na, AB’deysen kendi ülkendeki veri koruma otoritesine başvurabilirsin.</p>
       </section>
       <section>
         <h2>Bu metin değişirse</h2>
@@ -124,7 +143,7 @@
   <hr>
     <article id="sartlar">
       <h1>Kullanım Şartları</h1>
-      <p class="updated">2026-09-22</p>
+      <p class="updated">2026-10-04</p>
       <p class="intro">Cooker’ı kullanarak aşağıdaki şartları kabul etmiş olursun. Uzun bir hukuk metni değil; ne yapabileceğini ve neyi yapamayacağını anlatıyor.</p>
       <section>
         <h2>Rahatsız edici içeriğe toleransımız yok</h2>
@@ -133,14 +152,15 @@
       </section>
       <section>
         <h2>Bildirme ve engelleme</h2>
-        <p>Her gönderinin yanındaki menüden içeriği bildirebilir, gizleyebilir ya da paylaşan kişiyi engelleyebilirsin. Engellediğin kişinin içeriği bir daha karşına çıkmaz.</p>
+        <p>Her gönderinin, yorumun, sohbetin ve profilin menüsünden içeriği ya da kişiyi bildirebilir, engelleyebilirsin; gelen arkadaşlık ve takip isteklerinde de. Gönderini gizleyebilir, kendi gönderindeki yorumu silebilirsin. Engellediğin kişinin gönderileri ve yorumları bir daha karşına çıkmaz; o da seni göremez, sana yazamaz ve aranızdaki takip kalkar.</p>
+        <p>Paylaştığın yazılar (açıklama, yorum, mesaj, ad, kullanıcı adı, biyografi, tarif) yayınlanmadan önce otomatik bir süzgeçten geçer; küfür, hakaret ya da cinsel ifade içeren metin paylaşılmaz.</p>
         <p>Bildirilen içerik 24 saat içinde incelenir; kurallara aykırıysa kaldırılır ve gerekiyorsa hesabı askıya alınır.</p>
       </section>
       <section>
         <h2>Paylaştığın içerik</h2>
         <p>Paylaştığın fotoğraf ve yazılar sana aittir; mülkiyetini almıyoruz.</p>
         <p>Yalnızca sana ait olan ya da paylaşma hakkına sahip olduğun içerikleri paylaşmalısın. Başkasının fotoğrafını izinsiz paylaşma.</p>
-        <p>İçeriğini istediğin zaman silebilirsin.</p>
+        <p>Gönderilerini ve yorumlarını istediğin zaman silebilirsin. Tek tek mesaj silme yok; mesajların hesabını silince silinir.</p>
       </section>
       <section>
         <h2>Tarifler bir sağlık tavsiyesi değildir</h2>
@@ -149,10 +169,8 @@
         <p>Mutfakta ocak, fırın, kızgın yağ ve bıçak kullanılıyor. Güvenlik senin sorumluluğunda.</p>
       </section>
       <section>
-        <h2>Abonelik ve reklamlar</h2>
-        <p>Gurme tarifleri reklam izleyerek ya da abone olarak açabilirsin.</p>
-        <p>Abonelikler Apple Kimliğin üzerinden yönetilir. İptal ve iade işlemleri Apple’ın kurallarına tabidir; iptali cihazının Ayarlar bölümünden yaparsın.</p>
-        <p>Abonelik, iptal edilmediği sürece dönem sonunda kendiliğinden yenilenir.</p>
+        <h2>Gurme tarifler ve reklamlar</h2>
+        <p>Gurme tarifler kilitlidir: kısa bir reklam izlersen o tarif 24 saat açık kalır. Uygulamada ücretli bir abonelik ya da satın alma yok.</p>
       </section>
       <section>
         <h2>Hesabının kapatılması</h2>
@@ -173,71 +191,89 @@
   <hr>
     <article id="privacy">
       <h1>Privacy Policy</h1>
-      <p class="updated">2026-09-22</p>
+      <p class="updated">2026-10-04</p>
       <p class="intro">Cooker is an app for couples who cook together. This page explains what information is handled when you use it, where it lives and who can see it. Nothing has been left out for the sake of brevity.</p>
+      <section>
+        <h2>Data controller</h2>
+        <p>The controller of your personal data in Cooker (the “data controller” under Turkish law no. 6698, KVKK, and the EU GDPR) is the app’s developer: the person shown as Cooker’s seller on the App Store. Cooker is made by an individual developer, not a company.</p>
+        <p>For anything about this policy or your data, write to: <a href="mailto:hello.cooker.app@gmail.com">hello.cooker.app@gmail.com</a></p>
+      </section>
       <section>
         <h2>An account is required</h2>
         <p>Cooker cannot be used without an account: cooking invitations, friendships and Discover posts all need to know who you are.</p>
-        <p>You can sign in with email and password, with Google or with Apple. Your credential record is held by Google’s Firebase Authentication service; we never see your password. If you sign in with Google or Apple, we receive only your email address and a user identifier — never your contacts, photos or anything else.</p>
+        <p>You can sign in with email and password, with Google or with Apple. Your credential record is held by Google’s Firebase Authentication service; we never see your password.</p>
+        <p>If you sign in with Google, your Google account’s email address, name and profile photo address go into that credential record; your name is offered as a suggestion when you set up your profile. If you sign in with Apple, we receive your email address and (only on the first sign-in) your name; the name is used only as a suggestion while you set up your profile, on this phone. Your contacts, photos and anything else are never accessed.</p>
         <p>When signing in with Apple you can hide your email; if you do, we only see the relay address Apple provides.</p>
       </section>
       <section>
         <h2>What is stored on our server</h2>
         <p>The following data is stored on our server, hosted by Supabase in the European Union (Frankfurt). The social side of the app cannot work without it:</p>
-        <p>Your profile: display name, username, short bio, avatar emoji and colour, whether your account is private, your follower and post counts, and your friend code.</p>
-        <p>The posts you share in Discover: photo, caption, category, your own rating, the linked recipe and, if you cooked together, your partner. Your comments, likes and saved posts.</p>
+        <p>Your profile: display name, username, short bio, avatar and colour, whether your account is private, your follower and post counts, and your friend code.</p>
+        <p>The posts you share in Discover: the dish photo and, if you add one, a selfie, caption, category, your own rating, the linked recipe, a table menu you share and, if you cooked together, your partner. Your comments, likes and saved posts.</p>
+        <p>When you save a recipe you wrote, its name and photo (if you added one) are shared as a post in Discover; its ingredients and steps stay on your phone.</p>
         <p>Who you follow, who follows you, and pending follow requests.</p>
-        <p>Messages you exchange with friends. Messages are NOT end-to-end encrypted; they are stored in plain text on the server, where we could technically read them. We only do so when a legal obligation or a reported abuse case requires it.</p>
+        <p>Messages you exchange with friends, and the recipe and post links you send them. Messages are NOT end-to-end encrypted; they are stored in plain text on the server, where we could technically read them. We only do so when a legal obligation or a reported abuse case requires it.</p>
         <p>The people you block and the reports you send.</p>
-        <p>A short-lived mailbox for cooking and “What shall we eat?” invitations; an invitation is deleted as soon as it reaches the other person.</p>
+        <p>A short-lived mailbox for invitations, friend requests and the messages of games played on two phones: an entry is deleted as soon as it reaches the other person, or automatically after seven days if it never does.</p>
       </section>
       <section>
         <h2>Photos and camera</h2>
-        <p>When you want to share a photo of your food, we ask for access to your gallery or camera. That access is used only for the shot you pick or take. Other photos in your gallery are never read, scanned or transmitted.</p>
-        <p>A photo you share is uploaded to the photo store on our server. The store is reachable by anyone who knows a photo’s exact address; addresses cannot be guessed and only reach people who can see the post. When you delete the post or your account, the photo is deleted from the store too.</p>
+        <p>When you pick a photo from your library, iOS’s own picker opens and hands the app only the photo you choose; we cannot see the rest of your library and do not ask for permission to. If you want to take a photo, we ask for camera access; the shot is used only for the post you want to share.</p>
+        <p>A photo you share is resized and uploaded to the photo store on our server. The store is reachable by anyone who knows a photo’s exact address; addresses cannot be guessed and only reach people who can see the post.</p>
         <p>Location data embedded in photos (EXIF) is not used by the app.</p>
       </section>
       <section>
         <h2>Who sees what</h2>
-        <p>Your profile card (name, username, avatar, counts) is visible to every signed-in user. If your account is private, only followers you approve see your posts; otherwise every signed-in user does.</p>
-        <p>Your follower and following lists are public.</p>
-        <p>Your friend code (CK-…) is known only to the people you share it with; it cannot be listed by others. Anyone who has your code can send you a friend request or a cooking invitation.</p>
+        <p>Your profile card (name, username, bio, avatar, counts) is visible to every signed-in user. If your account is private, only followers you approve see your posts; otherwise every signed-in user does.</p>
+        <p>Your follower and following lists are visible to every signed-in user.</p>
+        <p>Your friend code (CK-…) is known only to the people you share it with and to people you follow mutually (your friend list is rebuilt from that on a new phone); it cannot be listed by others. Anyone who has your code can send you a friend request or a cooking invitation.</p>
         <p>A person you block cannot see your posts, message you, follow you or invite you. They are not told they were blocked.</p>
       </section>
       <section>
-        <h2>While cooking on two phones</h2>
-        <p>When you cook together, step check-marks, timers and “What shall we eat?” votes are relayed to the other phone in real time through our server. These messages are not stored; they disappear when cooking ends.</p>
+        <h2>While cooking and playing on two phones</h2>
+        <p>When you cook together or play on two phones (What to Eat?, Knockout Tournament, Veto, Fridge), step check-marks, timers, votes and picks are relayed to the other phone in real time through our server; they are not stored.</p>
+        <p>If the other phone is off at that moment, messages such as an invitation, a vote, a list or “I left” wait in the mailbox above and are deleted once they arrive.</p>
       </section>
       <section>
         <h2>What stays on your phone</h2>
-        <p>Your favourites, cooking history and badges, the recipes you write yourself, your friend list, message read times, notifications, and your language and theme preference are stored only on your phone. They are not sent to us.</p>
-        <p>If you delete the app or sign out, this data is removed from your phone; there is no backup.</p>
+        <p>Your favourites, cooking history and badges, the ingredients and steps of the recipes you write, your unfinished recipe draft, the ratings and notes you give recipes, your friend list, the phone’s copy of your chats and when you read them, notifications, when you accepted the terms, and your language and theme preference are stored only on your phone. They are not sent to us.</p>
+        <p>When you sign out, this data stays on your phone and comes back when you sign in again with the same account. If someone signs in with a different account on this phone, your friend list, chats, notifications, recipe draft and ratings are removed; your favourites, cooking history, badges and own recipes stay on the phone and that account sees them too. Keep this in mind if you share your phone.</p>
+        <p>If you delete your account, all of this is removed from your phone too; only the device settings (language, theme, sound), the ad counters and the unlock times of recipes you opened with an ad remain. If you delete the app, everything goes. There is no backup.</p>
       </section>
       <section>
         <h2>Ads</h2>
-        <p>You can unlock gourmet recipes by watching an ad. Ads are served by Google AdMob, which may process your device advertising identifier and technical details such as approximate location.</p>
+        <p>Gourmet recipes are locked: watch a short ad and that recipe stays open for 24 hours. Apart from that, a full-screen ad may appear every few recipes.</p>
+        <p>Ads are served by Google AdMob, which may process your IP address, technical details of your device, your approximate location and (if you allow it) your advertising identifier.</p>
         <p>On iOS you are asked separately for permission to show personalised ads. If you decline, you still see ads, but they are not personalised.</p>
-        <p>Watching ads is never required — a subscription unlocks the same content.</p>
-      </section>
-      <section>
-        <h2>Subscriptions</h2>
-        <p>If you subscribe, payment is handled entirely by Apple. We never see or store your card details and they never reach us.</p>
-        <p>We learn whether your subscription is active through the RevenueCat service, which receives an anonymous transaction identifier from Apple — not your name or email.</p>
       </section>
       <section>
         <h2>Recipe images</h2>
-        <p>Recipe photos are loaded from TheMealDB and Unsplash. When an image loads, those services see your IP address, as with any internet request. Nothing identifying you is sent with it.</p>
+        <p>The images of the recipes in the app ship with the app; opening a recipe sends no request over the internet for its image. Photos shared by you and others load from our server.</p>
+      </section>
+      <section>
+        <h2>Why we process data, and on what legal basis</h2>
+        <p>Creating your account and delivering your profile, posts, messages and invitations to you and your friends: necessary to provide the service in the terms of use (KVKK art. 5/2-c, GDPR art. 6(1)(b)).</p>
+        <p>Reviewing reports, preventing abuse and spam, keeping the app secure, and keeping the app free with non-personalised ads: our legitimate interest (KVKK art. 5/2-f, GDPR art. 6(1)(f)).</p>
+        <p>Keeping data or handing it to an authority when the law requires it: legal obligation (KVKK art. 5/2-ç, GDPR art. 6(1)(c)).</p>
+        <p>Personalised ads: only if you grant the permission iOS asks for, i.e. with your explicit consent (KVKK art. 5/1, GDPR art. 6(1)(a)). You can withdraw it any time in iPhone Settings → Privacy &amp; Security → Tracking.</p>
       </section>
       <section>
         <h2>Who we work with</h2>
-        <p>Service providers that process your data: Google (Firebase Authentication for sign-in; AdMob for ads), Supabase (database, photo store and real-time messaging; Frankfurt), Apple (payments and Sign in with Apple), RevenueCat (subscription status). Each receives only what its job requires.</p>
+        <p>Service providers that process your data: Google (Firebase Authentication for sign-in and Google sign-in; AdMob for ads), Supabase (database, photo store and real-time messaging; Frankfurt), Apple (Sign in with Apple). Each receives only what its job requires.</p>
         <p>We do not sell your data. We run no analytics tool that tracks your behaviour in the app. We do not track your location.</p>
       </section>
       <section>
+        <h2>Transfers abroad</h2>
+        <p>Your data is processed on servers outside Turkey: Supabase’s servers are in Germany (EU, Frankfurt); the services of Google (Firebase Authentication, Google sign-in, AdMob) and Apple (Sign in with Apple) run in the United States and in these companies’ data centres in other countries.</p>
+        <p>The transfer is needed to provide your account and the app’s social features; the data transferred is limited to what this policy describes.</p>
+      </section>
+      <section>
         <h2>How long it is kept</h2>
-        <p>Data on the server is kept until you delete your account. When you delete it via Settings → Delete account, your profile, posts, comments, likes, follows, messages, blocks, reports and photos are removed from the server and your Firebase credential record is closed.</p>
+        <p>Data on the server is kept until you delete your account. When you delete it via Settings → Delete account, your profile, posts, comments, likes, saved posts, follows, messages (on both sides of a chat), blocks, reports and photo folder are removed from the server and your Firebase credential record is closed.</p>
+        <p>Mailbox entries are deleted when they reach the other person, or after seven days if they never do.</p>
+        <p>When you delete a post, its photos are deleted from the store too; if the connection drops at that moment, a photo may stay in your folder until you delete your account. If your partner deletes a joint post, its photos stay in the folder of whoever uploaded them until that person deletes their account; since the post is gone, they no longer appear in the app.</p>
+        <p>A comment you leave on someone else’s post is deleted with that post or when you delete your account. A joint post you shared together stays until either of you deletes it or the person who posted it deletes their account; if your partner deletes their account, the post stays and their name is removed from it.</p>
         <p>Server backups are rotated within 30 days at most; deleted data does not remain in backups beyond that.</p>
-        <p>A comment you leave on someone else’s post lives with that post; a joint post you shared together stays until either of you deletes it.</p>
       </section>
       <section>
         <h2>Children</h2>
@@ -245,7 +281,8 @@
       </section>
       <section>
         <h2>Your rights</h2>
-        <p>You have the right to find out what data is held, to have it corrected or deleted, and to object to its processing (Turkish KVKK and EU GDPR). You can edit your profile and delete your account directly in the app; for anything else, write to the address below and we will answer within 30 days.</p>
+        <p>Article 11 of the KVKK and the EU GDPR give you the right to find out whether and what data is processed, why it is processed and to whom it is transferred, to have it corrected or deleted, to object to its processing, and to claim compensation if unlawful processing harmed you.</p>
+        <p>You can edit your profile in the app and delete your account directly via Settings → Delete account. For anything else, write to the address below and we will answer within 30 days. If you are not satisfied with our answer, you can complain to the Turkish Personal Data Protection Board (KVKK Kurulu) or, in the EU, to your country’s data protection authority.</p>
       </section>
       <section>
         <h2>Changes to this policy</h2>
@@ -259,7 +296,7 @@
   <hr>
     <article id="terms">
       <h1>Terms of Use</h1>
-      <p class="updated">2026-09-22</p>
+      <p class="updated">2026-10-04</p>
       <p class="intro">By using Cooker you agree to the terms below. This is not a long legal document — it sets out what you can and cannot do.</p>
       <section>
         <h2>Zero tolerance for objectionable content</h2>
@@ -268,14 +305,15 @@
       </section>
       <section>
         <h2>Reporting and blocking</h2>
-        <p>Every post has a menu where you can report it, hide it, or block the person who posted it. A blocked person’s content never appears to you again.</p>
+        <p>You can report or block from the menu of every post, comment, chat and profile, and from incoming friend and follow requests. You can hide your posts and delete comments on them. A blocked person’s posts and comments never appear to you again; they can’t see you or message you, and any follows between you are removed.</p>
+        <p>Text you share (captions, comments, messages, names, usernames, bios, recipes) passes an automatic filter before it is published; text with swear words, insults or sexual terms is not posted.</p>
         <p>Reported content is reviewed within 24 hours; if it breaks the rules it is removed and the account suspended where necessary.</p>
       </section>
       <section>
         <h2>The content you share</h2>
         <p>The photos and text you share belong to you. We do not take ownership.</p>
         <p>Only share content that is yours or that you have the right to share. Do not post someone else’s photo without permission.</p>
-        <p>You can delete your content at any time.</p>
+        <p>You can delete your posts and comments at any time. Single messages cannot be deleted; your messages are deleted when you delete your account.</p>
       </section>
       <section>
         <h2>Recipes are not health advice</h2>
@@ -284,10 +322,8 @@
         <p>Cooking involves hobs, ovens, hot oil and knives. Your safety is your own responsibility.</p>
       </section>
       <section>
-        <h2>Subscriptions and ads</h2>
-        <p>Gourmet recipes can be unlocked by watching an ad or by subscribing.</p>
-        <p>Subscriptions are managed through your Apple ID. Cancellation and refunds follow Apple’s rules; you cancel from your device Settings.</p>
-        <p>A subscription renews automatically at the end of each period unless cancelled.</p>
+        <h2>Gourmet recipes and ads</h2>
+        <p>Gourmet recipes are locked: watch a short ad and that recipe stays open for 24 hours. There is no paid subscription or purchase in the app.</p>
       </section>
       <section>
         <h2>Account closure</h2>
